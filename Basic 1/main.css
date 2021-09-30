@@ -1,0 +1,14 @@
+#product-overview {
+  background: #ff1b68;
+}
+
+h1,
+p {
+  color: white;
+  /* font-family: san-serif; */
+  font-family: "Oswald", sans-serif;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
