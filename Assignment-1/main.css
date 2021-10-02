@@ -14,5 +14,14 @@ body {
   font-family: sans-serif;
 }
 li {
-  /* font-family: inherit; */
+  font-family: inherit;
+}
+li + li + li {
+  background-color: black;
+  color: white;
+}
+
+ol > li {
+  background-color: black;
+  color: white;
 }
