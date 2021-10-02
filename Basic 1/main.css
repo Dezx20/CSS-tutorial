@@ -1,14 +1,19 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
+}
+
 #product-overview {
   background: #ff1b68;
 }
 
-h1,
-p {
-  color: white;
+#product-overview h1 {
+  color: rgb(0, 150, 92);
   /* font-family: san-serif; */
   font-family: "Oswald", sans-serif;
 }
 
 .section-title {
   color: #2ddf5c;
+  /* font-family: inherit; */
 }
