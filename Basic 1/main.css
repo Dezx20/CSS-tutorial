@@ -1,10 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat Alternates", sans-serif;
   color: black;
+  margin: 0;
 }
 
 #product-overview {
-  background: #ff1b68;
+  background: url("https://wallpapers.com/images/high/hd-cat-and-city-view-hjivvyh9tpglc9er.jpg");
+  padding: 20px;
+  /* border: 5px solid black;
+   */
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  /* margin: 5px; */
+  width: 100%;
+  height: 520px;
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box; */
 }
 
 #product-overview h1 {
@@ -16,4 +32,78 @@ body {
 .section-title {
   color: #2ddf5c;
   /* font-family: inherit; */
+}
+
+.main-header {
+  color: pink;
+  background-color: #2ddf5c;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.main-header__brand {
+  color: #0e4f4e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item > a {
+  /* padding: 0 10px; */
+  text-decoration: none;
+  color: #0e4f4e;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+/* .main-nav__item a::after {
+  content: " (link)";
+  color: purple;
+} */
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 76px);
+  vertical-align: middle;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 22px;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:active,
+.main-nav__item--cta a:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
 }
