@@ -24,6 +24,12 @@ body {
   font-family: "Anton", sans-serif;
 }
 
+.main-plan {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .plan {
   background: #d5ffdc;
   text-align: center;
@@ -43,13 +49,106 @@ body {
 
 .plan__annotation {
   background: white;
-  color: green;
-  padding: 2px;
+  color: #19b84c;
+  padding: 8px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.507);
+  border-radius: 8px;
 }
 /* h1 {
     font-family: sans-serif;
 } */
+
+/* .main-plan li {
+  list-style: none;
+} */
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: rgb(112, 112, 112);
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+.plan--highlighted .plan__title {
+  color: white;
+}
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .plan__features li {
+  margin: 8px 0;
+} */
+.plan__feature {
+  margin: 8px 0;
+}
+
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 2px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+  /* color: pink; */
+}
+#key-features {
+  background: rgb(187, 36, 36);
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 33px;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  color: white;
+  /* padding: 10px; */
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
 
 .main-header {
   width: 100%;
@@ -112,4 +211,32 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
+}
+
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
 }
