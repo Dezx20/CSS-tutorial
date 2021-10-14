@@ -11,6 +11,11 @@ body {
   /* height: 100%; */
 }
 
+main {
+  min-height: calc(100vh - (3.5rem + 8rem));
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -65,8 +70,8 @@ body {
   text-decoration: none;
   font-weight: bold;
   /* font-size: 22px; */
-  font-size: 1.4rem;
-  /* height: 2.5rem; */
+  /* font-size: 1.4rem; */
+  height: 2.5rem;
   /* height: 22px; */
   display: inline-block;
 
@@ -74,7 +79,7 @@ body {
   /* display: inline-block; */
 }
 .main-header__brand img {
-  height: 2.5rem;
+  height: 100%;
 }
 
 .main-nav {
