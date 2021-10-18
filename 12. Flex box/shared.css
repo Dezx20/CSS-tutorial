@@ -38,7 +38,7 @@ main {
   background: #2ddf5c;
   /* padding: 8px 16px; */
   padding: 0.5rem 1rem;
-  z-index: 3;
+  z-index: 34;
   display: flex;
   align-items: center;
   justify-content: space-between;
