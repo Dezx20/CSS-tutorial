@@ -9,8 +9,6 @@ let modal = document.querySelector(".modal");
 let toggleButton = document.querySelector(".toggle-button");
 let mobileNav = document.querySelector(".mobile-nav");
 
-let ctaButton = document.querySelector(".main-nav__item--cta");
-
 for (let i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener("click", () => {
     // modal.style.display = "block";
@@ -58,16 +56,4 @@ toggleButton.addEventListener("click", () => {
     mobileNav.classList.add("open");
     backdrop.classList.add("open");
   }, 10);
-});
-
-ctaButton.addEventListener("animationstart", (event) => {
-  console.log("Animation started", event);
-});
-
-ctaButton.addEventListener("animationend", (event) => {
-  console.log("Animation ended", event);
-});
-
-ctaButton.addEventListener("animationiteration", (event) => {
-  console.log("Animation iteration", event);
 });
